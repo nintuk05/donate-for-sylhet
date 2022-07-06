@@ -31,6 +31,8 @@
 
 .text-bakso p {
     margin-bottom: 30px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 
@@ -41,4 +43,129 @@
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+
+/*----- Donate Today -----*/
+
+.donate-today {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700px;
+    font-size: 45px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 30px;
+    color: #707070;
+}
+
+.amount {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.money-color {
+    box-sizing: border-box;
+    width: 136px;
+    height: 123px;
+    left: 495px;
+    top: 979px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.money {
+    width: 135px;
+    height: 123px;
+    left: 338px;
+    top: 979px;
+    background: #f4f2f2;
+    border-radius: 5px;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.extra-taka {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 5%;
+}
+
+
+/*----- Donate Plan -----*/
+
+
+.donate-plan {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.plan-3 {
+    width: 360px;
+    height: 370px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.plan-3 h2 {
+    text-align: left;
+    margin-bottom: -20px;
+    padding-left: 25px;
+
+}
+
+.plan-1 {
+    width: 360px;
+    height: 370px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+.plan-1 h2 {
+    text-align: left;
+    margin-bottom: -20px;
+    padding-left: 25px;
+}
+
+.plan-2 {
+    width: 360px;
+    height: 370px;
+    background: #fcfcd2;
+    border-radius: 5px;
+}
+
+.plan-2 h2 {
+    text-align: left;
+    margin-bottom: -20px;
+    padding-left: 25px;
+}
+
+.img-edit img {
+    margin-top: 25px;
+    padding-left: 20px;
+    margin-bottom: 0%;
 }
